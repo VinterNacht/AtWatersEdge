@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AtWatersEdge": {
+      "commandName": "Project",
+      "commandLineArgs": "--addModPath=\"C:\\Users\\vinte\\source\\repos\\AtWatersEdge\\AtWatersEdge\\bin\\Debug\" --addOrigin=\"C:\\Users\\vinte\\source\\repos\\AtWatersEdge\\AtWatersEdge\\assets\"",
+      "workingDirectory": "C:\\Users\\vinte\\AppData\\Roaming\\Vintagestory\\1179"
+    }
+  }
+}

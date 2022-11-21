@@ -1,0 +1,9 @@
+{
+    "block-tallplant-coopersreed-*-growing-*": "Sprouting Cooper's Reed",
+    "block-tallplant-papyrus-*": "Sprouting Papyrus",
+    "item-halvedcattailroot": "Split Cattail Root",
+    "blockhelp-growing-reeds-harvest": "Reed Is Growing, Unharvestable",
+    "atwatersedge:item-vegetable-cookedhalvedpapyrusroot": "Roasted Half Papyrus Root",
+    "item-vegetable-cookedhalvedcattailroot": "Roasted Half Cattail Root",
+    "item-halvedpapyrusroot": "Split Papyrus Root"
+}

@@ -1,0 +1,12 @@
+1.17-1.1.1
+- Added ModIcon
+
+1.17-1.1.0
+- Added config file and support in mod for using same.
+- Can now configure growth times from sprouting to harvestable, and harvestable to grown
+- Can decide whether growth times are affected by month length
+
+1.17-1.0.0
+- Split cattail roots/papyrus roots added
+- Ability to plant both added
+- Halved roots can be cooked/eaten for vegetable satiation

@@ -1,0 +1,87 @@
+[
+  {
+    "op": "replace",
+    "path": "/entityClassByType/*-harvested-*",
+    "value": "awebetransient",
+    "file": "game:blocktypes/plant/reedpapyrus.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/class",
+    "value": "awereeditem",
+    "file": "game:itemtypes/resource/catttailroot.json"
+  },
+  {
+    "op": "replace",
+    "path": "/class",
+    "value": "awereeditem",
+    "file": "game:itemtypes/resource/papyrusroot.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/transientPropsByType/tallplant-coopersreed-*/inGameHours",
+    "value": 84,
+    "file": "game:blocktypes/plant/reedpapyrus.json",
+    "side": "server"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/transientPropsByType/tallplant-papyrus-*/inGameHours",
+    "value": 66,
+    "file": "game:blocktypes/plant/reedpapyrus.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [{
+			type: "Perish",
+			freshHours: { avg: 336 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.55
+		}],
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
+  },
+  {
+    "op": "remove",
+    "path": "/class",
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
+  },
+  {
+    "op": "remove",
+    "path": "/class",
+    "file": "game:itemtypes/resource/papyrusroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [{
+			type: "Perish",
+			freshHours: { avg: 336 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.55
+		}]
+    ,
+    "file": "game:itemtypes/resource/catttailroot.json",
+    "side": "server"
+  },
+  {
+    "op": "add",
+    "path": "/transitionableProps",
+    "value": [{
+			type: "Perish",
+			freshHours: { avg: 336 },
+			transitionHours: { avg: 72 },
+			transitionedStack: { type: "item", code: "rot" },
+			transitionRatio: 0.55
+		}],
+    "file": "game:itemtypes/resource/papyrusroot.json",
+    "side": "server"
+  }
+]

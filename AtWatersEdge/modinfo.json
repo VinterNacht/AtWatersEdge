@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "atwatersedge",
+  "name": "At Waters Edge",
+  "author": "Vinter Nacht",
+  "description": "I stand here staunch in cattail marshes, pondering my place in ancestral questions - Spirit in the Flute - Michael G Smith",
+  "version": "1.1.1",
+  "dependency": {
+    "game": ""
+  }
+}
